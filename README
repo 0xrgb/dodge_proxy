@@ -1,0 +1,29 @@
+dodge_proxy
+===========
+
+`dodge_proxy`는 Go로 작성된, HTTP Blocking 우회 프록시입니다.
+
+Installation
+------------
+
+  $ go get -u github.com/0xrgb/dodge_proxy
+
+Usage
+-----
+
+인자로 프록시 서버의 포트를 주어 실행합니다.
+
+  $ dodge_proxy 8080
+
+`-q` 옵션은 에러를 제외하고 아무것도 출력하지 않게 합니다.
+
+  $ dodge_proxy -q 8080
+
+`-v` 옵션은 무슨 일이 일어나는지 좀 더 자세하게 보여줍니다.
+
+  $ dodge_proxy -v 8080
+
+Known Issue
+-----------
+
+* 몇몇 사이트에서는 제대로 동작하지 않습니다.
